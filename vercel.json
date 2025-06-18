@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "app.js": {
+      "runtime": "@vercel/node"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/app.js"
+    }
+  ],
+  "regions": ["syd1"]
+}
